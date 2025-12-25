@@ -38,8 +38,10 @@ Before you begin, ensure you have the following installed:
   * npm (comes with Node.js)
   * MongoDB Compass (for database management and visualization)
 
+  ```
   git clone <github.com/paya5am/BLR-NOW>
   cd <your-project-folder-name>
+```
 
 2. Database Setup
   * Open MongoDB Compass.
@@ -47,9 +49,12 @@ Before you begin, ensure you have the following installed:
   * Create a new database or ensure your connection string in the backend environment variables is correct.
 
 3. Backend and Frontend setup
+    ```
     cd server
     npm install
     npm start
+    ```
+    ``` 
 
     cd client
     npm install
